@@ -1,0 +1,17 @@
+{
+  "user1" : {
+      "name" : "satish",
+      "profession" :"engineer",
+      "id" : 1
+  },
+  "user2" : {
+      "name" : "aman",
+      "profession" :"teacher",
+      "id" : 2
+  },
+  "user3" : {
+      "name" : "deepak",
+      "profession" :"engineer",
+      "id" : 3
+  }
+}
