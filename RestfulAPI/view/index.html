@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NODEJS RESTFUL API TUTORIALS</title>
+
+    <style media="screen">
+      form, div{
+        width: 100%;
+        height: 100px;
+        padding: 0px 50px;
+      }
+      .floatcss div{
+        height: 50px;
+        width: 300px;
+        float: right;
+        clear:right;
+      }
+      .floatcss div::after{
+        clear:right;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="">
+      <form action="http://127.0.0.1:8081/users" method="post">
+        <h3>Post request</h3>
+        <button type="submit" name="button">Add a user user4</button>
+
+      </form>
+    </div>
+
+    <hr>
+    <form action="http://127.0.0.1:8081/users" method="get">
+      <h3>GET request</h3>
+      <button type="submit" name="button">Get the full list of data</button>
+    </form>
+    <hr>
+    <form action="http://127.0.0.1:8081/users/2" method="get">
+      <h3>Get request for ID:2</h3>
+      <button type="submit" name="button">Get the 2nd Userdata</button>
+    </form>
+    <hr>
+    <div class="">
+        <h3>Download File</h3>
+      <a href="http://127.0.0.1:8081/empDownload" target="_self">Download User JSON file</a>
+    </div>
+    <hr>
+
+    <div class="">
+      <form>
+        Name of Recipe: <br><br>
+        <input type="text" name="" value=""><br><br>
+        ingredients:<br><br>
+        <input type="textarea" name="" value=""><br><br>
+        <button type="submit" name="button">Send Recipe to Server</button>
+      </form>
+    </div>
+
+
+  </body>
+</html>
